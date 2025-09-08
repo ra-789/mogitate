@@ -24,6 +24,3 @@ Route::post('/products/register', [ProductController::class, 'store'])->name('pr
 
 Route::get('/products/{productId}', [ProductController::class, 'show'])->name('products.show'); //詳細
 Route::post('/products/{productId}/update', [ProductController::class, 'update'])->name('products.update'); //更新
-
-
-//Route::post('/products/{productId}/delete', [ProductController::class, 'destroy'])->name('products.delete');//削除
