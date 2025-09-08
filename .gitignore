@@ -1,0 +1,38 @@
+
+# Laravel vendor directory
+/vendor
+
+# Laravel environment files
+.env
+.env.backup
+.env.*.local
+
+# Laravel logs
+/storage/*.key
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# Composer lock file (任意: チーム開発では共有することも多い)
+/composer.lock
+
+# Node modules
+/node_modules
+
+# IDE / Editor settings
+/.idea
+/.vscode
+*.swp
+*.swo
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Docker MySQL data (永続化データはGitに含めない)
+docker/mysql/data/
+
+# その他一時ファイル
+npm-debug.log
+yarn-error.log
